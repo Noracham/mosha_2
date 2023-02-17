@@ -18,4 +18,11 @@
         endif; ?>
     </ul>
 </section>
+<section id="about">
+    <div class="about-img"><img src="<?php echo esc_url(get_theme_file_uri('img/yoav-hornung-Qg6lPXJ6IL4-unsplash.jpg')) ?>" alt=""></div>
+    <div class="about-txt">
+        <h1 class="sub-title">ABOUT<br><span>私たちについて</span></h1>
+        <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
+    </div>
+</section>
 <?php get_footer(); ?>
