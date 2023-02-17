@@ -3,9 +3,11 @@
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
   width: 100vw;
   height: 70px;
-  display: flex;
   align-items: center;
   background-color: #fff;
 }
@@ -51,6 +53,43 @@ header .contact-link a {
      object-fit: cover;
 }
 
+#news {
+  flex-direction: column;
+}
+
+.news-list {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0;
+}
+.news-list li {
+  padding: 15px 15px 15px 0;
+  margin-top: 15px;
+}
+.news-list li .list-row {
+  display: flex;
+  align-items: center;
+}
+.news-list li .list-row .list-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background: #000;
+  color: #fff;
+  padding: 3px 5px;
+  margin-left: 20px;
+}
+.news-list li .list-title {
+  margin-top: 20px;
+}
+.news-list li:not(:first-child) {
+  padding: 15px;
+  border-left: 1px solid #000;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -58,7 +97,10 @@ html {
 .wrapper {
   display: flex;
   justify-content: center;
-  max-width: 1000px;
+  max-width: 1032px;
+  margin: 100px auto;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 
 a {
@@ -66,6 +108,31 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 li {
   list-style: none;
+}
+
+.sub-title {
+  position: relative;
+  font-size: 3.3rem;
+  letter-spacing: 1.3rem;
+  font-weight: normal;
+}
+.sub-title::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: #000;
+  bottom: -50px;
+}
+.sub-title span {
+  position: absolute;
+  bottom: -20px;
+  font-size: 1.2rem;
+  letter-spacing: 0.3rem;
 }/*# sourceMappingURL=style.css.map */

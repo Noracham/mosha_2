@@ -4,12 +4,39 @@ html {
 .wrapper {
   display: flex;
   justify-content: center;
-  max-width: 1000px;
+  max-width: 1032px;
+  margin: 100px auto;
+  padding: 0 16px;
+  box-sizing: border-box;
 }
 a {
   color: #000;
   text-decoration: none;
 }
+p {
+  margin: 0;
+}
 li {
   list-style: none;
+}
+//sub-title
+.sub-title {
+  position: relative;
+  font-size: 3.3rem;
+  letter-spacing: 1.3rem;
+  font-weight: normal;
+  &::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #000;
+    bottom: -50px;
+  }
+  span {
+    position: absolute;
+    bottom: -20px;
+    font-size: 1.2rem;
+    letter-spacing: 0.3rem;
+  }
 }

@@ -10,7 +10,7 @@
 </head>
 
 <body class="main-body">
-    <header class="wrapper">
+    <header>
         <div class="logo"><a href="<?php echo esc_url(home_url()) ?>"><img src="<?php echo esc_url(get_theme_file_uri('img/logo.svg')) ?>" alt=""></a></div>
         <ul class="category">
             <li><a href="<?php echo esc_url(home_url('/category/news')) ?>">NEWS</a></li>
