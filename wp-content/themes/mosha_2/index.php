@@ -48,8 +48,26 @@
                 <div class="content-img"><img src="<?php echo esc_url(get_theme_file_uri('img/sns.jpg')) ?>" alt="movie"></div>
             </div>
         </div>
-
-
+    </div>
+</section>
+<section id="company" class="wrapper">
+    <div class="company_info">
+        <h1 class="sub-title">COMPANY<br><span>会社情報</span></h1>
+        <dl class="info-list">
+            <dt>会社名</dt>
+            <dd>ウェブエンターテイメントデザイン株式会社</dd>
+            <dt>所在地</dt>
+            <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+            <dt>代表</dt>
+            <dd>田中　太郎</dd>
+            <dt>資本金</dt>
+            <dd>3,000,000円</dd>
+            <dt>事業内容</dt>
+            <dd>Web制作・マーケティング</dd>
+            <dd class="plus">インターネットメディア事業</dd>
+            <dd class="plus">プロモーション企画・制作</dd>
+            <dd class="plus">ソーシャル企画・運営</dd>
+        </dl>
     </div>
 </section>
 <?php get_footer(); ?>
