@@ -40,6 +40,17 @@ header .contact-link a {
   font-size: 1.4rem;
 }
 
+.main-visu {
+  width: 100vw;
+  height: calc(100vh - 70px);
+}
+.main-visu img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 html {
   font-size: 62.5%;
 }
