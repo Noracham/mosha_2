@@ -69,5 +69,8 @@
             <dd class="plus">ソーシャル企画・運営</dd>
         </dl>
     </div>
+    <div class="company-img">
+        <img src="<?php echo esc_url(get_theme_file_uri('img/office-visu.jpg')) ?>" alt="">
+    </div>
 </section>
 <?php get_footer(); ?>

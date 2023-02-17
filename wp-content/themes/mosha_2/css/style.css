@@ -164,6 +164,7 @@ header .contact-link a {
 
 #company {
   justify-content: flex-start;
+  position: relative;
 }
 
 .company_info {
@@ -191,6 +192,21 @@ header .contact-link a {
 }
 .company_info .info-list .plus {
   margin-left: 20%;
+}
+
+.company-img {
+  position: absolute;
+  width: 55%;
+  height: auto;
+  aspect-ratio: 3/2;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.company-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 html {

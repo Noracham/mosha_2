@@ -158,6 +158,7 @@ header {
 //company
 #company {
   justify-content: flex-start;
+  position: relative;
 }
 .company_info {
   box-sizing: border-box;
@@ -183,5 +184,18 @@ header {
     .plus {
       margin-left: 20%;
     }
+  }
+}
+.company-img {
+  position: absolute;
+  width: 55%;
+  height: auto;
+  aspect-ratio: 3/2;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  img {
+    width: 100%;
+    object-fit: cover;
   }
 }
