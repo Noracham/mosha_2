@@ -1,1 +1,60 @@
-/*# sourceMappingURL=style.css.map */
+.main-body {
+  position: relative;
+}
+
+header {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+header .category {
+  display: flex;
+  margin: 0 30px;
+  padding: 0;
+}
+header .category li {
+  font-size: 1.4rem;
+  margin: 0 15px;
+}
+header .logo {
+  height: 40%;
+}
+header .logo img {
+  height: 100%;
+}
+header .contact-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 200px;
+  background-color: #000;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header .contact-link a {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */

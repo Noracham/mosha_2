@@ -1,1 +1,41 @@
 @use "mixin" as m;
+.main-body {
+  position: relative;
+}
+header {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  .category {
+    display: flex;
+    margin: 0 30px;
+    padding: 0;
+    li {
+      font-size: 1.4rem;
+      margin: 0 15px;
+    }
+  }
+  .logo {
+    height: 40%;
+    img {
+      height: 100%;
+    }
+  }
+  .contact-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 200px;
+    background-color: #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    a {
+      color: #fff;
+      font-size: 1.4rem;
+    }
+  }
+}
