@@ -223,3 +223,30 @@ footer {
     object-fit: cover;
   }
 }
+//newspage
+.c-sub {
+  position: relative;
+  font-size: 3.3rem;
+  letter-spacing: 1.3rem;
+  font-weight: normal;
+}
+.n-p {
+  width: 100%;
+  .n-p-change {
+    padding: 0;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    li {
+      font-size: 1.4rem;
+      width: 200px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:first-child {
+        border-bottom: 3px solid #000;
+      }
+    }
+  }
+}

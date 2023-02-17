@@ -235,6 +235,34 @@ footer {
      object-fit: cover;
 }
 
+.c-sub {
+  position: relative;
+  font-size: 3.3rem;
+  letter-spacing: 1.3rem;
+  font-weight: normal;
+}
+
+.n-p {
+  width: 100%;
+}
+.n-p .n-p-change {
+  padding: 0;
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #000;
+}
+.n-p .n-p-change li {
+  font-size: 1.4rem;
+  width: 200px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.n-p .n-p-change li:first-child {
+  border-bottom: 3px solid #000;
+}
+
 html {
   font-size: 62.5%;
   background: #f0f0f0;
