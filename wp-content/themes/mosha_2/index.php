@@ -25,4 +25,31 @@
         <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
     </div>
 </section>
+<section class="business wrapper">
+    <h1 class="sub-title">BUSINESS<br><span>事業内容</span></h1>
+    <div class="business-contents">
+        <div class="contents1 contents">
+            <div class="content">
+                <h3>Web制作・マーケティング</h3>
+                <div class="content-img"><img src="<?php echo esc_url(get_theme_file_uri('img/web.jpg')) ?>" alt="web"></div>
+            </div>
+            <div class="content">
+                <h3>インターネットメディア事業</h3>
+                <div class="content-img"><img src="<?php echo esc_url(get_theme_file_uri('img/movie.jpg')) ?>" alt="movie"></div>
+            </div>
+        </div>
+        <div class="contents2 contents">
+            <div class="content">
+                <h3>プロモーション企画・制作</h3>
+                <div class="content-img"><img src="<?php echo esc_url(get_theme_file_uri('img/camera.jpg')) ?>" alt="web"></div>
+            </div>
+            <div class="content">
+                <h3>ソーシャル企画・運営</h3>
+                <div class="content-img"><img src="<?php echo esc_url(get_theme_file_uri('img/sns.jpg')) ?>" alt="movie"></div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
 <?php get_footer(); ?>
