@@ -238,15 +238,25 @@ footer {
     width: 100%;
     border-bottom: 1px solid #000;
     li {
+      cursor: pointer;
       font-size: 1.4rem;
       width: 200px;
       height: 70px;
       display: flex;
       justify-content: center;
       align-items: center;
-      &:first-child {
-        border-bottom: 3px solid #000;
-      }
+    }
+    .active {
+      border-bottom: 3px solid #000;
+    }
+  }
+}
+.n-p-list {
+  display: flex;
+  flex-direction: column;
+  li {
+    .np-row1 {
+      display: flex;
     }
   }
 }
