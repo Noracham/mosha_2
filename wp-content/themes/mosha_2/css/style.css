@@ -252,6 +252,7 @@ footer {
   border-bottom: 1px solid #000;
 }
 .n-p .n-p-change li {
+  position: relative;
   cursor: pointer;
   font-size: 1.4rem;
   width: 200px;
@@ -259,6 +260,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.n-p .n-p-change li a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 .n-p .n-p-change .active {
   border-bottom: 3px solid #000;
