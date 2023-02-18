@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="wrapper2">
+<main class="wrapper">
     <h1 class="c-sub">News & Press</h1>
     <div class="n-p">
         <ul class="n-p-change">
@@ -12,11 +12,11 @@
                 while (have_posts()) {
                     the_post();
                     if (in_category('news')) { ?>
-                        <li>
+                        <li class="n-p-lists">
                             <ul class="np-row1">
                                 <li><?php the_date(); ?></li>
-                                <li><?php $category = get_the_category();
-                                    echo $category[0]->cat_name; ?></li>
+                                <li class="np-category"><?php $category = get_the_category();
+                                                        echo $category[0]->cat_name; ?></li>
                             </ul>
                             <div class="np-row2"><?php the_title(); ?></div>
                         </li>
