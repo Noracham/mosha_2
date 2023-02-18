@@ -19,4 +19,5 @@
             <li><a href="<?php echo esc_url(home_url()) ?>#company">COMPANY</a></li>
         </ul>
         <div class="contact-link"><a href="<?php esc_url(home_url('/contact')) ?>">お問い合わせ</a></div>
+
     </header>

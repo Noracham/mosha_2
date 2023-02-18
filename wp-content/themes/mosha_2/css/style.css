@@ -142,11 +142,11 @@ footer {
   line-height: 3rem;
 }
 
-.business {
+#business {
   display: flex;
   flex-direction: column;
 }
-.business .business-contents {
+#business .business-contents {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;

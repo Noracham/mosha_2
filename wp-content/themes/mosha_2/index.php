@@ -25,7 +25,7 @@
         <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキスト</p>
     </div>
 </section>
-<section class="business wrapper">
+<section class="wrapper" id="business">
     <h1 class="sub-title">BUSINESS<br><span>事業内容</span></h1>
     <div class="business-contents">
         <div class="contents1 contents">
